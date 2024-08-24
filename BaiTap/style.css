@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: auto;
+}
+
+.list {
+    width: 45%;
+}
+
+.list.left {
+    border: 1px solid;
+}
+
+.list.left ul {
+    list-style-type: square;
+}
+
+.list.left ul ul {
+    list-style-type: circle;
+}
+
+.list.right {
+    border: 1px solid;
+}
+
+.list.right ol ol {
+    margin-left: 20px;
+}
+
+.list.right ol ol[type="i"] {
+    list-style-type: lower-roman;
+}
+
+.list.right ol ol[type="A"] {
+    list-style-type: upper-alpha;
+}
